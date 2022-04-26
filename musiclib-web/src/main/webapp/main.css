@@ -1,0 +1,58 @@
+button{
+    font-family: "Arial Black";
+    background-color: white;
+    width: 7.5%;
+    height: 5%;
+    position: absolute;
+    left: 19.5%;
+    top: 67%
+}
+button:hover{
+    background-color: gray;
+}
+body {
+    background-image: url('fon.jpg'); /* Фоновый цвет и фоновый рисунок*/
+    color: #fff; /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-size: 100%;
+}
+h1{
+    font-family: "Arial Black";
+}
+h2{
+    font-family: "Arial Black";
+    font-size: 600%;
+
+}
+input{
+    font-family: "Arial Black";
+    width: 10%;
+    font-size: 120%;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+}
+.label1{
+    position: absolute;
+    left: 11%;
+}
+.label2{
+    position: absolute;
+    left: 16%;
+    top: 40%;
+}
+.label3{
+    position: absolute;
+    left: 15.5%;
+    top: 51%;
+}
+.box1{
+    position: absolute;
+    left: 18%;
+    top:49%
+}
+.box2{
+    position: absolute;
+    left: 18%;
+    top: 60%
+}

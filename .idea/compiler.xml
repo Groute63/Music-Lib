@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="musiclib-web" />
+        <module name="musiclib-spring" />
+        <module name="musiclib-main" />
+        <module name="musiclib-console" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MusicLib" options="" />
+      <module name="musiclib-console" options="-parameters" />
+      <module name="musiclib-main" options="-parameters" />
+      <module name="musiclib-spring" options="-parameters" />
+      <module name="musiclib-web" options="-parameters" />
+    </option>
+  </component>
+</project>

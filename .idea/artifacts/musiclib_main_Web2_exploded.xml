@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="musiclib-main:Web2 exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/musiclib_main_Web2_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="musiclib-main/web/Web2" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="musiclib-main" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

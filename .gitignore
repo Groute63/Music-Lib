@@ -1,0 +1,6 @@
+# Project exclude paths
+/musiclib-console/target/
+/musiclib-main/target/
+/musiclib-spring/target/
+/musiclib-web/target/
+/out/
